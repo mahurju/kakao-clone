@@ -4,23 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Friends</title>
 </head>
 <body>
   <header>
     <div class="header_top">
       <div class="header_column">
-        <i class="fas fa-fighter-jet"></i>
-        <i class="fas fa-wifi"></i>
+        <i class="fa fa-fighter-jet"></i>
+        <i class="fa fa-wifi"></i>
       </div>
       <div class="header_column">
         <span class="header_time">18:38</span>
       </div>
       <div class="header_column">
         <i class="far fa-moon"></i>
-        <i class="fab fa-bluetooth-b"></i>
-        <span class="header_battery">66%<i class="fas fa-battery-full"></i></span>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header_battery">66%<i class="fa fa-battery-full"></i></span>
       </div>
     </div>
     <div class="header_bottom">
@@ -31,13 +31,13 @@
         <span class="header_text">Friends <span class="header_number">1</span></span>
       </div>
       <div class="header_column">
-        <i class="fas fa-cog fa-lg"></i>
+        <i class="fa fa-cog fa-lg"></i>
       </div>
     </div>
   </header>
   <main class="friends">
     <div class="search-bar">
-      <i class="fas fa-search"></i>
+      <i class="fa fa-search"></i>
       <input type="text" placeholder="Find friends, chats, Plus">
     </div>
     <section class="friends__section">
@@ -46,11 +46,13 @@
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <img src="" alt="">
-          <span class="friends__section-name">Nicolas</span>
+          <a href="profile.html">
+            <img src="images/avatar.jpg" alt="">
+            <span class="friends__section-name">Nicolas</span>
+          </a>
         </div>
         <div class="friends__section-row">
-          <img src="" alt="">
+          <img src="images/avatar.jpg" alt="">
           <span class="friends__section-name">Friends's Names Display</span>
         </div>
       </div>
@@ -74,16 +76,16 @@
   </main>
   <nav class="tab-bar">
     <a href="index.html" class="tab-bar__tab">
-      <i class="fas fa-user"></i><span class="tab-bar__title tab-bar__tab--selected">Friends</span>
+      <i class="fa fa-user"></i><span class="tab-bar__title tab-bar__tab--selected">Friends</span>
     </a>
     <a href="chats.html" class="tab-bar__tab">
-      <i class="fas fa-comment"></i><span class="tab-bar__title">Chats</span>
+      <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
     </a>
     <a href="find.html" class="tab-bar__tab">
-      <i class="fas fa-search"></i><span class="tab-bar__title">Find</span>
+      <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
     </a>
     <a href="more.html" class="tab-bar__tab">
-      <i class="fas fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+      <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
     </a>
   </nav>
 </body>
